@@ -91,6 +91,8 @@ function Chart(props) {
           />
            {/* <ReferenceLine x={props.BTCScore}  stroke="#154dff" />        */}
           {/* <ReferenceLine x={avScore}  stroke="#006a47"  />       */}
+
+          {/* Bug: app brakes when attempting to use 'ReferenceLine' */}
         </ScatterChart>
       </ResponsiveContainer>
       <Selector onChange={handleChange} />
